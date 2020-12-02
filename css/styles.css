@@ -1,0 +1,160 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #e9eaf2;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+p{
+    line-height: 25px;
+    text-align: justify;
+    font-size: 15px;
+    color: mediumvioletred;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration-line: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration-line: none;
+}
+
+.color-primary{
+    background-color: mediumvioletred;
+}
+
+.color-secondary{
+    background-color: lightsteelblue;
+}
+
+.color-bg{
+    background-color: #e9eaf2;
+}
+
+button{
+    border-radius: 50px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.project{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.project:hover{
+    background-color: mediumvioletred;
+    transition: 1s;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.name{
+    position: fixed;
+    margin-left: 100px;
+    margin-top: -155px;
+    transition: 1s;
+}
+
+.name:hover{ 
+    color: mediumvioletred;
+}
+
+.title{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+img{
+    height: 315px;
+    margin-left: 100px;
+}
+
+.video{
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+.detail{
+    margin-left: 100px;
+    margin-top: 200px;
+    color: mediumvioletred;
+}
+
+#text{
+    width: 520px;
+    height: 300px;
+    margin-left: 100px;
+    text-align: justify;
+    color: mediumvioletred;
+}
+
+#text2{
+    width: 520px;
+    height: 300px;
+    margin-left: 100px;
+    text-align: justify;
+    color: mediumvioletred;
+}
+
+#text3{
+    width: 520px;
+    height: 300px;
+    margin-left: 100px;
+    text-align: justify;
+    color: mediumvioletred;
+}
+
+.sn{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.aboutMe{
+    position: fixed;
+    right: 100px;
+    top: 46px;
+}
+
+.aboutMe:hover{
+    color: mediumvioletred;
+    transition: 1s;
+}
+
+.instagram{
+    margin-left: 100px;
+}
