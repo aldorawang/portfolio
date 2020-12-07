@@ -22,7 +22,6 @@ p{
     line-height: 25px;
     text-align: justify;
     font-size: 15px;
-    color: mediumvioletred;
 }
 
 a{
@@ -42,7 +41,7 @@ a:visited{
 }
 
 .color-secondary{
-    background-color: lightsteelblue;
+    background-color: plum;
 }
 
 .color-bg{
@@ -51,6 +50,14 @@ a:visited{
 
 button{
     border-radius: 50px;
+    position: absolute;
+    left: 105px;
+    top: 700px;
+}
+
+button:focus{
+    outline: none;
+    box-shadow: none;
 }
 
 .projects{
@@ -83,14 +90,35 @@ button{
 }
 
 .name{
-    position: fixed;
-    margin-left: 100px;
-    margin-top: -155px;
+    width: 250px;
     transition: 1s;
+    float: left;
+    display: block;
+    text-align: center;
 }
 
 .name:hover{ 
     color: mediumvioletred;
+}
+
+.aboutMe{
+    width: 250px;
+    transition: 1s;
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+.aboutMe:hover{
+    color: mediumvioletred;
+}
+
+.header{
+    position: fixed;
+    background-color: plum;
+    width: 100%;
+    top: 0px;
+    left: 0px;
 }
 
 .title{
@@ -111,48 +139,33 @@ img{
 .detail{
     margin-left: 100px;
     margin-top: 200px;
-    color: mediumvioletred;
 }
 
 #text{
-    width: 520px;
+    width: 540px;
     height: 300px;
     margin-left: 100px;
     text-align: justify;
-    color: mediumvioletred;
 }
 
 #text2{
-    width: 520px;
+    width: 540px;
     height: 300px;
     margin-left: 100px;
     text-align: justify;
-    color: mediumvioletred;
 }
 
 #text3{
-    width: 520px;
+    width: 540px;
     height: 300px;
     margin-left: 100px;
     text-align: justify;
-    color: mediumvioletred;
 }
 
 .sn{
     width: 125px;
     height: 125px;
     margin-left: 10px;
-}
-
-.aboutMe{
-    position: fixed;
-    right: 100px;
-    top: 46px;
-}
-
-.aboutMe:hover{
-    color: mediumvioletred;
-    transition: 1s;
 }
 
 .instagram{
