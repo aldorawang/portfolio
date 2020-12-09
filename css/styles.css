@@ -98,7 +98,8 @@ button:focus{
 }
 
 .name:hover{ 
-    color: mediumvioletred;
+    background-color: mediumvioletred;
+    color: plum;
 }
 
 .aboutMe{
@@ -110,7 +111,8 @@ button:focus{
 }
 
 .aboutMe:hover{
-    color: mediumvioletred;
+    background-color: mediumvioletred;
+    color: plum;
 }
 
 .header{
@@ -169,5 +171,30 @@ img{
 }
 
 .instagram{
+    position: relative;
+    top: 100px;
+    width: 80px;
+    margin-bottom: 150px;
+}
+
+.aboutMet{
     margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+::selection{
+    background: mediumvioletred;
+}
+
+.aboutMep{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bio{
+    margin-top: 175px;
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
 }
